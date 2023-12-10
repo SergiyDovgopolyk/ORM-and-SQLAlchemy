@@ -6,7 +6,7 @@ from .db import Base
 
 
 
-url = f'postgresql://postgres:14021992@localhost:5432/postgres'
+url = f'postgresql://postgres:14021992@localhost:5432/migrations'
 Base = declarative_base()
 engine = create_engine(url, echo=False, pool_size=5)
 

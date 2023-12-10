@@ -3,7 +3,7 @@ from models import Student, Group, Teacher, Discipline, Grade
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql://postgres:14021992@localhost:5432/postgres')
+engine = create_engine('postgresql://postgres:14021992@localhost:5432/migrations')
 Session = sessionmaker(bind=engine)
 session = Session()
 
