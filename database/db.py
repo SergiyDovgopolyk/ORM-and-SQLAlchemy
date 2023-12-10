@@ -20,3 +20,4 @@ engine = create_engine(url, echo=True, pool_size=5)
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
+
